@@ -1,82 +1,95 @@
-# {Naam}
-
-De conventie voor naamgeving is opdrachtgever-opdracht-ondersteuningsniveau
-Topics: opdrachtgever-naam, semester-naam, sprint-naam, niveau-naam
+# Welkompagina Companion App
 
 ## Context
-*Bij welke sprint hoort deze leertaak en welk niveau heeft deze leertaak.*
+Voor de **Companion App** van de **HvA (mijnHvA Student)** wordt een welkompagina gerealiseerd.
 
-Leertaak: {Beschrijving van de leertaak}. Deze leertaak hoort bij {sprint # "titel van de sprint}. Dit is een {niveau van de opdracht} die je {individueel, in team} uitvoert voor {opdrachtgever}
+Leertaak: **Companion App Start**. Deze leertaak hoort bij sprint **The Client**. Dit is een **voorbeeld** opdracht die je **individueel** uitvoert voor de **HvA (mijnHvA Student)**.
 
 ## Briefing
 *In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
 
-{Beschrijf de opdrachtgever}
-{Beschrijf de opdracht}
+MijnHvA Student is het productteam binnen de HvA dat werkt aan het MijnHvA studentportaal. MijnHvA is het startpunt van alle informatie die studenten nodig hebben voor  hun studie. Binnen dit studentportaal leeft de Companion App.
+
+Voor de Companion App ga je een welkompagina realiseren.
+
+Deze Companion App zal uiteindelijk een grote brochure/tutorial/guide/kennisbank zijn ter ondersteuning van de mijnHva Student app (of latere uitbreidingen hiervan).  
+
+De eerste pagina zal een visitekaart zijn met een introductie voor de echte app. Denk hierbij aan inline images, correcte huisstijl en uitgelijnde teksten.
+
+De welkompagina moet vooralsnog goed te gebruiken zijn op mobiele telefoons
+ 
 
 ## Doel van deze opdracht
 *Wat leer je in deze taak.*
 
-{beschrijf de taak in actieve taal: Je leert hoe...}
+Je leert in deze taak hoe je communiceert met een opdrachtgever en hoe je je bevindingen duidelijk en aansprekelijk presenteert. 
+Daarnaast leer je met basis HTML, CSS, JavaScript technieken een huisstijl te implementeren.
 
 ## Werkwijze
 *De werkwijze volgt de fasering van de Development Life Cycle.*
-
-{geef de opdracht, in meer of mindere mate van sturing afhankelijk van het niveau van de taak}
 
 Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
 
+In deze fase ligt de focus op communiceren met de opdrachtgever.
+
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Schrijf en presenteer een debrief
+2. Inventariseer bestaande informatie (bijvoorbeeld de content voor de welkompagina)
+3. Maak een todo lijst
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [Briefing / debriefing](https://example.com)
+- [Content inventariseren](https://example.com)
 
 </details>
 
 ### Ontwerpen
 *In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
 
+In deze fase ligt de focus op het implementeren van de bestaande huisstijl in jouw ontwerp.
+
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Bestudeer de huisstijl
+2. Maak een breakdown-chart van de aangeleverde content 
+3. Schets een aantal variaties van mogelijke layout van de welkompagina
+
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [Living Styleguide](https://example.com)
+- [Breakdown-chart](https://example.com)
+- [Layout schetsen](https://example.com)
 
 </details>
 
 ### Bouwen
 *In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
 
+In deze fase ligt de focus op het implementeren van de bestaande huisstijl in de code.
+
 <details>
 <summary>Aanpak</summary>
+ 
+ toepassen van webtechnologie (HTML, CSS, JS), gebruik van tooling, werken volgens conventies en wetgeving, documenteren en bijhouden van een changelog.
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Werk aan de hand van de breakdown-chart de html van de welkompagina uit
+2. Vervolgens style je aan de hand van de bestaande huisstijl met behulp van CSS de content elementen en de layout van de pagina
+3. Eventuele interactie werk je, daar waar nodig, uit met JavaScript
+4. Documenteer de uitwerking in de README.md van de opdracht-repository
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [HTML semantiek](https://example.com)
+- [CSS reference](https://example.com)
+- [Hey Designer...only these lines of code](https://example.com)
 
 </details>
 
@@ -85,65 +98,38 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 
 <details>
 <summary>Aanpak</summary>
-
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+ 
+Publiceer jouw uitwerking van de welkompagina met GitHub Pages
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [GitHub pages](https://example.com)
 
 </details>
 
 ### Testen
 *In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
 
+In deze fase ligt de focus op communiceren met de opdrachtgever.
+
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+ 1. Test jouw uitwerking van de welkompagina door middel van een User Test, registreer en verwerk feedback met behulp van GitHub Issues
+ 2. Presenteer jouw uitwerking van de welkompagina, registreer en verwerk feedback met behulp van GitHub Issues
+
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [User Testing](https://example.com)
+- [GitHub Issues](https://example.com)
 
 </details>
 
 ## Criteria
 *Definitions of done*
 
-{beschrijf de definitions of done}
+De leertaak is klaar als jouw uitwerking van de welkompagina is gedocumenteerd in de README.md. Je hebt de welkompagina gepresenteerd aan de opdrachtgever en de ontvangen feedback geregistreerd en verwerkt met behulp van GitHub Issues. Je bent nu klaar voor het Checkpoint, waar je met de coach reflecteert op hoe het communiceren met de opdrachtgever is gegaan en over het resultaat dat je hebt opgeleverd.
 
-Focus sprint 1 - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design. Hoe gaan werken we bij FDND, wat wordt er van de student verwacht, welke mindset is nodig. Succes ervaren.
-
-Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durfen.
-
-Focus sprint 3 - De focus in deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Je maakt iets voor een mens. Praten met een mens, doorvragen, protoypen en testen en resultaten gebruiken.
-
-Focus sprint 4 - De focus in deze sprint ligt op het toepassen van een huisstijl en maken van formulieren. Living styleguide en Atomic design, Animeren, Toegankelijke formulieren.
-
-Focus sprint 5 - De focus van deze sprint ligt op navigatie en informatie architectuur van een website. Organiseren en structureren van informatie, Design Patterns toepassen, Navigatie, filteren en zoekstrategieën, Micro Interacties.
-
-Focus sprint 6 - De focus van deze sprint ligt op werkwijze, samenwerken. Toepassen wat je al hebt geleerd. Er achter komen dat je een bedrijf kan helpen en advies kan geven over verschillende frontend zaken zoals navigatie, toegankelijkheid, interface design.
-
-Focus sprint 7 - De focus in deze sprint ligt op team building, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.	Het doel van deze sprint is binding tussen studenten creeeren. Met deze squad ga je het doen! Samen studeren, leren en elkaar helpen. En iets gezamenlijks maken met een database dingen. Een sneak peak naar de rest van het semester.
-
-Focus sprint 8 - De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever, leren hoe je externe data kan laden en presenteren. Je hebt data, die ga je laden en tonen, zodat iemand daar iets mee kan doen.
-dat betekent veel voor de interfcace, het laden van de data kost tijd en de data kan veranderen, hoe toon je dat en hoe zorg je dat je gebruiker 'controle' ervaart.
-
-Focus sprint 9 - De focus van deze sprint ligt op gebruiksvriendelijkheid, toegankelijkheid, testen en de testresultaten gebruiken voor het verbeteren van een ontwerp. Server site rendering leren. Progressive enhancement leren. Core functionaliteit kunnen bepalen en implementeren				
-
-Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie, ook als er geen verbinding is met het internet.
-
-Focus sprint 11 - De focus van deze sprint ligt op het maken van multi-user omgeving door het opzetten van een real-time verbinding tussen client en server. Job Stories, wireflowing, realtime en data management.
-
-Focus sprint 12 - De focus van deze sprint ligt op werkwijze en samenwerken, en hoe je een opdrachtgever kan helpen met het uitwerken van een concept. Iteratief (samen) werken: prototypen en testen om een concept te realiseren.
-
+_Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durfen._
 
