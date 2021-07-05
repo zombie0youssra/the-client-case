@@ -38,7 +38,7 @@ In deze fase ligt de focus op het analyseren van de huisstijl
 <details>
 <summary>Aanpak</summary>
 
-Beantwoord met behulp van onderstaande bron deze vragen over de huisstijl van de welkompagina en documenteer het in de [README.md van deze repository](./README.md).
+Beantwoord met behulp van onderstaande bron deze vragen over de huisstijl van de [voorbeeld-welkompagina](https://fdnd-task.github.io/hva-companion-start-example/) en documenteer het in de [README.md van deze repository](./README.md).
 
 1. Welke font en welke fallbacks worden er gebruikt in deze pagina
 2. Welke kleuren worden er gebruikt in de website
