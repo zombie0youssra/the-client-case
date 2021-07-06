@@ -3,6 +3,11 @@
 # Companion App Start (Voorbeeld)
 
 ## Beschrijving
+
+Je leert een debriefing schrijven...
+
+Je leert kijken naar een huisstijl...
+
 Je bestudeert een uitgewerkte welkompagina van de Companion App en bekijkt daarbinnen de semantiek in de HTML, de opmaak in CSS en de functionaliteit in Javascript.
 
 ![Poster](./docs/poster.png "Companion App welkompagina")  
