@@ -1,64 +1,77 @@
-# Welkompagina Companion App
+<img width="1196" alt="image" src="https://user-images.githubusercontent.com/1391509/134821424-df356b2a-0cee-41e4-b9b7-ee5b322fb56d.png">
+
+#  FDND Contact Microsite 
+
+Je bestudeert een uitgewerkte opdracht voor een opdrachtgever en bekijkt daarbinnen vooral de briefing / debriefing in de analyse fase van de Development Life Cycle. 
 
 ## Context
-Voor de **Companion App** van de **HvA (mijnHvA Student)** wordt een welkompagina gerealiseerd.
 
-Leertaak: **Companion App Start**. Deze leertaak hoort bij sprint **The Client**. Dit is een **voorbeeld** opdracht die je **individueel** uitvoert voor de **HvA (mijnHvA Student)**.
+Deze leertaak hoort bij sprint 2 "The Client". Dit is een voorbeeld taak en wordt behandeld tijdens de workshop. Je kunt deze repository gebruiken om de onderwerpen nog eens rustig na te lezen.
 
 ## Briefing
-*In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
 
-MijnHvA Student is het productteam binnen de HvA dat werkt aan het MijnHvA studentportaal. MijnHvA is het startpunt van alle informatie die studenten nodig hebben voor  hun studie. Binnen dit studentportaal leeft de Companion App.
+FDND.nl maakt gebruik van verschillende microsites zoals studieinformatie, programma, SKC, partners en leertaken. 
 
-Voor de Companion App ga je een welkompagina realiseren.
-
-Deze Companion App zal uiteindelijk een grote brochure/tutorial/guide/kennisbank zijn ter ondersteuning van de mijnHva Student app (of latere uitbreidingen hiervan).  
-
-De eerste pagina zal een visitekaart zijn met een introductie voor de echte app. Denk hierbij aan inline images, correcte huisstijl en uitgelijnde teksten.
-
-De welkompagina moet vooralsnog goed te gebruiken zijn op mobiele telefoons
+Een microsite is een deel van een grote site, bedoeld om informatie over een specifiek product of specifieke dienst onder de aandacht te brengen. Zie ook [wat is een microsite](https://webblog2punt0.weebly.com/blog/weet-jij-wat-de-voordelen-zijn-van-het-gebruik-van-microsites)
  
+Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een  microsite nodig met daarop alle contactgegevens. Op de site komen contactgegevens zoals een email-adres en telefoonnummer, maar ook een routebeschrijving. 
+
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
 
-Je leert in deze taak hoe je communiceert met een opdrachtgever en hoe je je bevindingen duidelijk en aansprekelijk presenteert. 
-Daarnaast leer je met basis HTML, CSS, JavaScript technieken een huisstijl te implementeren.
+Ontwerp en maak een opdracht voor een bedrijf en presenteer het resultaat
 
 ## Werkwijze
 *De werkwijze volgt de fasering van de Development Life Cycle.*
 
-Deze opdracht gaat de [analysefase](#analyseren) van de DLC.
+Deze opdracht gaat over de [analysefase](#analyseren) van de DLC.
 
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
 
-In deze fase ligt de focus op het analyseren van de huisstijl
+Voor deze opdracht gaan we kijken naar de briefing / debriefing van de opdracht. 
+
+Het briefingproces bestaat uit twee delen:
+ 1. Briefing van de opdrachtgever
+ 2. Debriefing, ofwel de terugkoppeling dat je alles goed begrepen heeft.
+
+De debriefing is noodzakelijk voor:
+1. de opdrachtgever om na te gaan, of duidelijk is overgekomen, wat hij voor ogen had
+2. Voor jou om te controleren of je alles goed heeft begrepen en geconcretiseerd.
+
+Een debrbeifing schrijf je zo:
+1. Contactgegevens
+2. Achtergrondinformatie
+3. Opdrachtomschrijving
+4. Aanleiding
+5. Doelstelling
+6. Oplevering
+7. Randvoorwaarden
+8. Gebruikers van het eindresultaat
+9. Relatie met andere projecten
+
 
 <details>
 <summary>Aanpak</summary>
 
-Beantwoord met behulp van onderstaande bron deze vragen over de huisstijl van de [voorbeeld-welkompagina](https://fdnd-task.github.io/hva-companion-start-example/) en documenteer het in de [README.md van deze repository](./README.md).
-
-1. Welke font en welke fallbacks worden er gebruikt in deze pagina
-2. Welke kleuren worden er gebruikt in de website
-3. Zijn er vaste waardes voor margins en paddings in en om de elementen? Wat zijn deze waardes?
-4. Wat voor properties hebben de verschillende teksten op de website?
-5. Hoe zien de verschillende states (active, visited, hover) van links eruit?
-6. Hoe zou jij de links met de schuine vlakken aan weerszijde maken?
+ 1. Maak een mindmap van de debriefing en vul zoveel mogelijk informatie in die je al weet of kan opzoeken. 
+ 2. Maak een lijst met vragen van dingen die je nog niet weet, neem dit mee naar de briefing met de opdrachtgever.
+ 3. Tijdens en na de briefing met de opdrachtgever kun je de mindmap afmaken. 
+ 4. Schrijf daarna de debriefing met alle informatie en stuur het op naar de opdrachtgever
+ 
 
 
-#### Materiaal
+#### Materiaal analysefase
 
-- [Living Styleguide](https://example.com)
-
+ Over briefing / debriefing
+ - [Checklist voor de ultieme debriefing – in 11 stappen naar resultaat](https://www.frankwatching.com/archive/2020/09/10/ultieme-debriefing-checklist-11-stappen/)
+ - [Hoe stel je een goede briefing en debriefing (onderzoeksomschrijving en terugkoppeling daarop) op?]()
+  
 </details>
 
 
 ## Criteria
 *Definitions of done*
-
-De leertaak is klaar als de antwoorden op de vragen hebt gedocumenteerd in de [README.md van deze repository](./README.md) en je feedback hebt gevraagd en ontvangen via een GitHub Issue. Je bent nu klaar voor het Checkpoint, waar je met de coach reflecteert op hoe het analyseren van de huisstijl is gegaan.
 
 _Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat. Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durfen._
 
