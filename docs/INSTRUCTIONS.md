@@ -30,7 +30,7 @@ Deze opdracht gaat over de [analysefase](#analyseren) van de DLC.
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
 
-Voor deze opdracht gaan we kijken naar de briefing / debriefing van de opdracht. 
+Voor deze opdracht gaan we kijken naar het briefingproces van een opdracht. 
 
 Het briefingproces bestaat uit twee delen:
  - Briefing van de opdrachtgever
