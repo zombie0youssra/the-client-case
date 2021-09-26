@@ -2,7 +2,7 @@
 
 #  FDND Contact Microsite 
 
-Je bestudeert een uitgewerkte opdracht voor een opdrachtgever en bekijkt daarbinnen vooral de briefing / debriefing in de analyse fase van de Development Life Cycle. 
+Je bestudeert een uitgewerkte opdracht voor een opdrachtgever en bekijkt de briefing / debriefing in de analysefase van de Development Life Cycle. 
 
 ## Context
 
