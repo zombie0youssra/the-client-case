@@ -55,12 +55,10 @@ Een debriefing schrijf je zo:
 <details>
 <summary>Aanpak</summary>
 
- 1. Maak een mindmap van de debriefing en vul zoveel mogelijk informatie in die je al weet of kan opzoeken. 
- 2. Maak een lijst met vragen van dingen die je nog niet weet, neem dit mee naar de briefing met de opdrachtgever.
+ 1. Kies één van de opdracht en maak zelf een mindmap van de debriefing en vul zoveel mogelijk informatie in die je al weet of kan opzoeken. 
+ 2. Maak een lijst met vragen van de dingen die je nog niet weet, neem dit mee naar de briefing van de opdrachtgever.
  3. Tijdens en na de briefing met de opdrachtgever kun je de mindmap afmaken. 
- 4. Schrijf daarna de debriefing met alle informatie en stuur het op naar de opdrachtgever
- 
-
+ 4. Schrijf daarna de debriefing met alle informatie en stuur het op naar de opdrachtgever.
 
 #### Materiaal analysefase
 
