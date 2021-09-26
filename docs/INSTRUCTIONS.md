@@ -40,7 +40,7 @@ De debriefing is noodzakelijk voor:
 - De opdrachtgever om na te gaan, of duidelijk is overgekomen, wat hij voor ogen had
 - Voor jou om te controleren of je alles goed heeft begrepen en geconcretiseerd.
 
-Een debrbeifing schrijf je zo:
+Een debriefing schrijf je zo:
 1. Contactgegevens
 2. Achtergrondinformatie
 3. Opdrachtomschrijving
