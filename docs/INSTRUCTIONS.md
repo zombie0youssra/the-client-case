@@ -32,12 +32,12 @@ Deze opdracht gaat over de [analysefase](#analyseren) van de DLC.
 Voor deze opdracht gaan we kijken naar de briefing / debriefing van de opdracht. 
 
 Het briefingproces bestaat uit twee delen:
- 1. Briefing van de opdrachtgever
- 2. Debriefing, ofwel de terugkoppeling dat je alles goed begrepen heeft.
+ - Briefing van de opdrachtgever
+ - Debriefing, ofwel de terugkoppeling dat je alles goed begrepen heeft.
 
 De debriefing is noodzakelijk voor:
-1. de opdrachtgever om na te gaan, of duidelijk is overgekomen, wat hij voor ogen had
-2. Voor jou om te controleren of je alles goed heeft begrepen en geconcretiseerd.
+- De opdrachtgever om na te gaan, of duidelijk is overgekomen, wat hij voor ogen had
+- Voor jou om te controleren of je alles goed heeft begrepen en geconcretiseerd.
 
 Een debrbeifing schrijf je zo:
 1. Contactgegevens
