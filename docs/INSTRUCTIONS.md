@@ -15,7 +15,7 @@ FDND.nl maakt gebruik van verschillende microsites zoals studieinformatie, progr
 
 Een microsite is een deel van een grote site, bedoeld om informatie over een specifiek product of specifieke dienst onder de aandacht te brengen. Zie ook [wat is een microsite](https://webblog2punt0.weebly.com/blog/weet-jij-wat-de-voordelen-zijn-van-het-gebruik-van-microsites)
  
-Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een  microsite nodig met daarop alle contactgegevens. Op de site komen contactgegevens zoals een email-adres en telefoonnummer, maar ook een routebeschrijving. 
+Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een  microsite nodig met daarop alle contactgegevens. Op de site komen contactgegevens zoals een email-adres en telefoonnummer, maar ook een routebeschrijving. De microsite moet responsive worden zodat bezoekers op een desktop computer eenvoudig de contactgegevens kunnen opzoeken, en bebzoekers die willlen langskomen de microsite kunnen gebruiken als routebeschrijving naar ons lokaal.
 
 
 ## Doel van deze opdracht
