@@ -67,6 +67,11 @@ Een debriefing schrijf je zo:
  - [Checklist voor de ultieme debriefing – in 11 stappen naar resultaat](https://www.frankwatching.com/archive/2020/09/10/ultieme-debriefing-checklist-11-stappen/)
  - [Hoe stel je een goede briefing en debriefing (onderzoeksomschrijving en terugkoppeling daarop) op?]()
   
+ Mindmap voor een debriefing:
+ 
+ <img width="1077" alt="image" src="https://user-images.githubusercontent.com/1391509/134825307-400aaa62-df4e-41b2-971a-03cee2886a7c.png">
+
+ 
 </details>
 
 
