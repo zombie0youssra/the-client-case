@@ -110,7 +110,7 @@ Ontwerpschetsen
 
 #### Breakdown-schets maken
 Als je ongeveer weet wat je gaat maken en hoe het er uit komt te zien kun je bedenken hoe je dit in code gaat maken. Dat noemen we een _Breakdown-schets_.
-In een Breakdown-schets maak je aantekeningen op je Wireferames of Wireflows met hoe je je concept in HTML, CSS en JS kanmaken. Dit geeft je handvaten hoe je de opdracht kan bouwen, bijvoorbeeld hoe de structuur in HTML eruit komt te zien, wat voor CSS je nodig hebt voor de layout en voor de verschillende componenten. Hierdoor kom je er ook achter wat je al weet en wat je nog niet weet. Daar zul je meer tijd voor moeten inplannen en iemand vragen of die je kan helpen. 
+In een Breakdown-schets maak je aantekeningen op je Wireferames of Wireflows met de HTML, CSS en JS. Dit geeft je handvaten hoe je de opdracht kan bouwen, bijvoorbeeld hoe de structuur in HTML eruit komt te zien en wat voor CSS je nodig hebt voor de layout of voor de verschillende componenten. Hierdoor kom je er ook achter wat je al weet en wat je nog niet weet. 
 
 ![image](https://user-images.githubusercontent.com/1391509/135466688-43ea7c13-5823-431f-a6a9-671a33a7bc45.png)
 
