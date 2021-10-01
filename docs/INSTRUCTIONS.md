@@ -120,21 +120,27 @@ In een Breakdown-schets maak je aantekeningen op je Wireferames of Wireflows met
 
  1. Werk in duo's, overleg samen hoe je een Wireframe in code zou kunnen maken. Gebruik drie kleuren voor aantekeningen over HTML, CSS en/of JS. 
  2. Bedenk eerst hoe je de basis-structuur van de Wireframes in HTML kan maken, wat wordt de ```<header>```, ```<nav``` en wat komt in de ```<main>```? Gebruik hier de _content sectioning_ HTML elementen voor. 
- 3. Kijk dan naar de verschillende onderdelen van je website en bedenk hoe je die in HTML zou kunnen maken, zoals de navigatie, een lijst artikelen of nieuwsberichten, of een formulier met input elementen en labels. Gebruik hier de _Text content_ elementen, _Image and multimedia_ elementen en formulier elementen voor. 
- 4. Ga dan bedenken hoe je de Wireframe schets in CSS zou maken. Gebruik je de Grid-layout voor de ```<main>``` met 2 of 3 kolommen? Flexbox voor de navigatie of het formulier?
- 5. Daarna kun je bedenken hoe je de interactieve elementen op de pagina met JS en CSS zou kunnen maken. 
+ 3. Ga dan bedenken hoe je de layout in CSS kan maken. Gebruik je de Grid-layout voor de ```<main>``` met 2 of 3 kolommen? Of positioning?
+ 4. Kijk dan naar de verschillende onderdelen van je website en bedenk hoe je die in HTML zou kunnen maken, zoals de navigatie, een lijst artikelen of nieuwsberichten, of een formulier met input elementen en labels. Gebruik hier de _Text content elements_ , _Image and multimedia elements_ , _forms_ en _Interactive elements_. 
+ 5. Dan bedenk je hoe je de onderdelen van je website CSS zou kunnen maken. Flexbox voor de navigatie of het formulier? Bos-shadows of border-radius?
+ 5. Daarna kun je ook nog bedenken hoe je de interactieve elementen op de pagina met JS en CSS zou kunnen maken. 
  6. Tot slot kun je in je Breakdown-schets noteren welke techniek je al beheerst en welke techniek nog nieuw voor je is. Dan weet je meteen waar je meer of minder tijd aan moet besteden als je gaat bouwen. 
 
  
 #### Materiaal breakdown-schets maken
 
- Breakdown
+ Breakdown HTML elementen
  - [HTML elementen voor _content sectioning_ op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning)
- - [HTML elementen voor formulieren op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms)
- - [Input elementen en Labels van een formulier](https://css-tricks.com/html-inputs-and-labels-a-love-story/)
+ - [Text content elements in HTML op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms)
+ - [Image and multimedia elements in HTML op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms)
+ - [Form elements in HTML op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms)
+ - [Interactive elements in HTML op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms)
+  - [Input elementen en Labels van een formulier](https://css-tricks.com/html-inputs-and-labels-a-love-story/)
+
+Breakdown CSS properties
  - [Uitleg van CSS Flexbox Layout op CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  - [Uitleg van CSS Grid Layout op CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
+ 
 </details>
 
 
