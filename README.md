@@ -2,3 +2,4 @@
 
 ![Kaart Webdev Vrouw](https://user-images.githubusercontent.com/1391509/137287096-bcc6cb54-2a22-491a-b26e-611e6ce269d2.png)
 
+<img width="1061" alt="image" src="https://user-images.githubusercontent.com/1391509/137287238-8e91c251-1afe-437d-83b7-4de6f25ba5be.png">
