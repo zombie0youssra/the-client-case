@@ -30,10 +30,10 @@ In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een
 De website is gebouwd met HTML en CSS.
 
 ### HTML
-De basis structuur is
+Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en opmaak van de `<body>`:
 
 #### HEAD
-  In de head straan de meta settings zoals 
+  In de head staan de meta-settings zoals 
   `<meta name="viewport" content="width=device-width,initial-scale=1">`
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
@@ -42,11 +42,11 @@ De basis structuur is
 `<link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">`
 `<link rel="stylesheet" href="local.css">`
   
-  In de `<head>` wordt een exter font geladen: De Open Sans 
+  In de `<head>` wordt een extern font geladen: De Open Sans 
 
 #### BODY
 
-  De structuur van de body is 
+  De structuur van de body is: 
   
   Een `<header>` met de titel en eerste paragraaf.
   
@@ -55,7 +55,7 @@ De basis structuur is
   En een section voor de routebeschrijving en een id setting voor de anchor. 
   `<section id="routebeschrijving">`
   
-  De foto's voor de routebeschjrijving zijn opgemnaakt met een figure element en figcaption
+  De foto's voor de routebeschrijving zijn opgemaakt met een figure-element en figcaption:
   ```
         <figure>
           <img src="assets/routebeschrijving1a-min.jpg" alt="">
@@ -65,8 +65,6 @@ De basis structuur is
   ```
   
   De `<footer>` met allle microsites van FDND. 
-  
-  
   
   
 ## CSS
