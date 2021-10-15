@@ -1,7 +1,4 @@
-<img width="887" alt="image" src="https://user-images.githubusercontent.com/1391509/134821929-b84fe0e8-a416-4a97-9729-121cdf44719d.png">
-
-
-#  FDND Contact Microsite 
+# FDND Contact Microsite 
 
 Je bestudeert een uitgewerkte opdracht voor een opdrachtgever en bekijkt de briefing / debriefing in de analysefase van de Development Life Cycle. 
 
@@ -13,7 +10,7 @@ Deze leertaak hoort bij sprint 2 "The Client". Dit is een voorbeeld taak en word
 
 FDND.nl maakt gebruik van verschillende microsites zoals studieinformatie, programma, SKC, partners en leertaken. 
  
-Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een  microsite nodig met daarop alle contactgegevens. Op de site komen contactgegevens zoals een email-adres en telefoonnummer, maar ook een routebeschrijving. De microsite moet responsive worden zodat bezoekers op een desktop computer eenvoudig de contactgegevens kunnen opzoeken, en bebzoekers die willlen langskomen de microsite kunnen gebruiken als routebeschrijving naar ons lokaal.
+Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een  microsite nodig met daarop alle contactgegevens. Op de site komen contactgegevens zoals een email-adres en telefoonnummer, maar ook een routebeschrijving. De microsite moet responsive worden zodat bezoekers op een desktop computer eenvoudig de contactgegevens kunnen opzoeken, en bezoekers die willlen langskomen moeten de microsite kunnen gebruiken als routebeschrijving op hun mobiel.
 
 
 ## Doel van deze opdracht
