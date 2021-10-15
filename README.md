@@ -2,7 +2,7 @@
 
 
 
-_Voorbeeld Readme van deze leertaak:_
+_Voorbeeld Readme voor deze leertaak:_
 
 
 # Contactpagina FDND 
