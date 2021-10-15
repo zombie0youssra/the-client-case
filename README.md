@@ -25,7 +25,7 @@ In het onderdeel _contactgegevens_ staat het telefoonnummer en email-adres van h
 
 ### routebeschrijving
 
-In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Hierom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen. Als een soort game. Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
+In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
 
 ![shotsnapp-1634298030 685](https://user-images.githubusercontent.com/1391509/137481669-51c22e21-7b42-404f-b5ba-8d4f43b52d3f.png)
 
