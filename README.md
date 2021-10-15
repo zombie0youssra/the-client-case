@@ -39,11 +39,9 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
   En een local CSS file met specifieke styling voor deze pagina. 
-  ```
-
+  ```html
       <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
       <link rel="stylesheet" href="local.css">
-
   ```
 
   In de `<head>` wordt een extern font geladen: De Open Sans 
@@ -57,24 +55,18 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
   
   ##### MAIN
   In de main staan twee sections, de section contactgegevens met een id en een section voor de routebeschrijving met een id. De id's worden gebruikt om vanuit de eerste paragraaf te linken. 
- ```
-  
+ ```html
       <section id="contactgegevens">
 
       <section id="routebeschrijving">
-      
-  
   ```
   
   De foto's voor de routebeschrijving zijn opgemaakt met een figure-element en figcaption:
-  ```
-  
+  ```html
       <figure>
         <img src="assets/routebeschrijving1a-min.jpg" alt="">
         <figcaption>Dit is de Leeuwenburg (LWB). (1/9)</figcaption>
       </figure>
-      
-  
   ```
   ##### FOOTER
   
@@ -92,27 +84,25 @@ De `<section>` font-size staat op 1.2em .
 
 In de CSS zijn 3 minor breakpoints voor Small-screens:
 
-#### 20em
+#### @media 20em
 
 Minor breakpoint met o.a. een aangepaste `<h1>` font-size van 1.4em, omdat de titel anders te breed is voor een small-screen.
 
-#### 25em
+#### @media 25em
 
 Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo groot mogelijk te maken zonder dat die te breed wordt.
 
 
-#### 30em
+#### @media 30em
 
 Margin en padding aanpassinge voor smalle schermen. 
 
 Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositioneerd, omdat die anders te breed worden voor een small-screen.
-```
-
+```css
       body:before, body:after{
         transform: scale(.7);
         left: -3rem;
       }
-
 ```
 
 
