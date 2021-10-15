@@ -38,10 +38,12 @@ Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en op
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
   En een local CSS file met specifieke styling voor deze pagina. 
-  
-`<link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">`
-`<link rel="stylesheet" href="local.css">`
-  
+
+  ```
+  <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
+  <link rel="stylesheet" href="local.css">
+  ```
+
   In de `<head>` wordt een extern font geladen: De Open Sans 
 
 #### BODY
@@ -91,7 +93,7 @@ Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo g
 
 Margin en padding aanpassinge voor smalle schermen. 
 
-Het verplichte HVA en FDND logo worden kleiner getoond omdat die anders te breed worden voor een small-screen.
+Het verplichte HVA en FDND logo worden 70% kleiner getoond en links geposiioneerd, omdat die anders te breed worden voor een small-screen.
 ```
   body:before, body:after{
     transform: scale(.7);
