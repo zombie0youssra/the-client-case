@@ -29,11 +29,11 @@ In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een
 
 De website is gebouwd met HTML en CSS.
 
-### HTMLL
+### HTML
 De basis structuur is
 
-#### <head>
-  IN de head straan de meta settings zoals 
+#### HEAD
+  In de head straan de meta settings zoals 
   `<meta name="viewport" content="width=device-width,initial-scale=1">`
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
@@ -44,14 +44,65 @@ De basis structuur is
   
   In de `<head>` wordt een exter font geladen: De Open Sans 
 
-### <body>
+#### BODY
 
-  De structuur van de body is `<header>` met de titel en eerste paragraaf.
+  De structuur van de body is 
+  
+  Een `<header>` met de titel en eerste paragraaf.
   
   De `<main>` met daarin de section contactgegevens en een id setting voor de anchor. 
 ` <section id="contactgegevens">`
   En een section voor de routebeschrijving en een id setting voor de anchor. 
   `<section id="routebeschrijving">`
+  
+  De foto's voor de routebeschjrijving zijn opgemnaakt met een figure element en figcaption
+  ```
+        <figure>
+          <img src="assets/routebeschrijving1a-min.jpg" alt="">
+        <figcaption>Dit is de Leeuwenburg (LWB). (1/9)</figcaption>
+      </figure>
+  
+  ```
+  
+  De `<footer>` met allle microsites van FDND. 
+  
+  
+  
+  
+## CSS
+
+In de CSS staat een `scroll-behavior: smooth;` op de html voor een animatie als iemand op de links contactgegevens en routebesschrijving klikt. Dit zijn anchors naar de sections met de id. 
+
+### Font-size
+
+De `<h1>` font-size staat op 2.4em en line-height van 120%. 
+De `<section>` font-size staat op 1.2em .
+
+In de CSS zijn 3 minor breakpoints voor Small-screens:
+
+### 20em
+
+Minor breakpoint met o.a. een aangepaste `<h1>` font-size van 1.4em, omdat de titel anders te breed is voor een small-screen.
+
+### 25em
+
+Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo groot mogelijk te maken zonder dat die te breed wordt.
+
+
+### 30em
+
+Margin en padding aanpassinge voor smalle schermen. 
+
+Het verplichte HVA en FDND logo worden kleiner getoond omdat die anders te breed worden voor een small-screen.
+```
+  body:before, body:after{
+    transform: scale(.7);
+    left: -3rem;
+  }
+```
+
+
+
   
 ## Licentie
 
