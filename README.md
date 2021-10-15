@@ -27,10 +27,11 @@ In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een
 
 ## Kenmerken
 
-De website is gebouwd met HTML en CSS.
+De website is gebouwd met [HTML](#html) en [CSS](#CSS).
 
 ### HTML
-Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en opmaak van de `<body>`:
+
+Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) en opmaak van de [BODY](#BODY):
 
 #### HEAD
   In de head staan de meta-settings zoals 
@@ -49,48 +50,58 @@ Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en op
 
 #### BODY
 
-  De structuur van de body is: 
+  De structuur van de body is [HEADER](#HEADER), [MAIN](#MAIN) en [FOOTER](#FOOTER): 
   
-  Een `<header>` met de titel en eerste paragraaf.
+  ##### HEADER
+  In de header staat de H1 titel en eerste paragraaf. In de eerste paragraaf wordt gellinkt naar de contactgegevens en routebeschrijving.
   
-  De `<main>` met daarin de section contactgegevens en een id setting voor de anchor. 
-` <section id="contactgegevens">`
-  En een section voor de routebeschrijving en een id setting voor de anchor. 
-  `<section id="routebeschrijving">`
+  ##### MAIN
+  In de main staan twee sections, de section contactgegevens met een id en een section voor de routebeschrijving met een id. De id's worden gebruikt om vanuit de eerste paragraaf te linken. 
+ ```
+  
+      <section id="contactgegevens">
+
+      <section id="routebeschrijving">
+      
+  
+  ```
   
   De foto's voor de routebeschrijving zijn opgemaakt met een figure-element en figcaption:
   ```
+  
       <figure>
         <img src="assets/routebeschrijving1a-min.jpg" alt="">
         <figcaption>Dit is de Leeuwenburg (LWB). (1/9)</figcaption>
       </figure>
+      
   
   ```
+  ##### FOOTER
   
-  De `<footer>` met allle microsites van FDND. 
+  In de `<footer>` staan alle microsites van FDND. 
   
   
-## CSS
+### CSS
 
-In de CSS staat een `scroll-behavior: smooth;` op de html voor een animatie als iemand op de links contactgegevens en routebesschrijving klikt. Dit zijn anchors naar de sections met de id. 
+In de CSS staat een `scroll-behavior: smooth;` op de html voor een animatie als iemand op de links contactgegevens en routebeschrijving klikt. Dit zijn anchors naar de sections met de id. 
 
-### Font-size
+#### Font-size
 
 De `<h1>` font-size staat op 2.4em en line-height van 120%. 
 De `<section>` font-size staat op 1.2em .
 
 In de CSS zijn 3 minor breakpoints voor Small-screens:
 
-### 20em
+#### 20em
 
 Minor breakpoint met o.a. een aangepaste `<h1>` font-size van 1.4em, omdat de titel anders te breed is voor een small-screen.
 
-### 25em
+#### 25em
 
 Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo groot mogelijk te maken zonder dat die te breed wordt.
 
 
-### 30em
+#### 30em
 
 Margin en padding aanpassinge voor smalle schermen. 
 
