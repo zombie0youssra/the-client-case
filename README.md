@@ -38,10 +38,11 @@ Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en op
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
   En een local CSS file met specifieke styling voor deze pagina. 
-
   ```
-  <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
-  <link rel="stylesheet" href="local.css">
+
+      <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
+      <link rel="stylesheet" href="local.css">
+
   ```
 
   In de `<head>` wordt een extern font geladen: De Open Sans 
@@ -59,8 +60,8 @@ Hieronder staat de basis structuur uitgelegd met de setting in de `<head>` en op
   
   De foto's voor de routebeschrijving zijn opgemaakt met een figure-element en figcaption:
   ```
-        <figure>
-          <img src="assets/routebeschrijving1a-min.jpg" alt="">
+      <figure>
+        <img src="assets/routebeschrijving1a-min.jpg" alt="">
         <figcaption>Dit is de Leeuwenburg (LWB). (1/9)</figcaption>
       </figure>
   
@@ -95,10 +96,12 @@ Margin en padding aanpassinge voor smalle schermen.
 
 Het verplichte HVA en FDND logo worden 70% kleiner getoond en links geposiioneerd, omdat die anders te breed worden voor een small-screen.
 ```
-  body:before, body:after{
-    transform: scale(.7);
-    left: -3rem;
-  }
+
+      body:before, body:after{
+        transform: scale(.7);
+        left: -3rem;
+      }
+
 ```
 
 
