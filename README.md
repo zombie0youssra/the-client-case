@@ -50,7 +50,7 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
 
   In de `<head>` wordt een extern font geladen: De Open Sans 
   
-  ```
+  ```html
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
   ```
 
