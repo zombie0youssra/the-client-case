@@ -21,11 +21,11 @@ Hier staat de website: https://fdnd-task.github.io/fdnd-contact-microsite-exampl
 
 ### contactgegevens
 
-In het onderdeel _contactgegevens_ staat het telefoonnummer en email-adres van het onderwijsbureau, en de adresgegevens van de opleiding. 
+In het onderdeel _contactgegevens_ staat het telefoonnummer en email-adres van het onderwijsbureau. 
 
 ### routebeschrijving
 
-In het onderdeel _routebeschrijving_ wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
+In het onderdeel _routebeschrijving_ staan de adresgegevens van de opleiding en wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
 
 ![shotsnapp-1634298030 685](https://user-images.githubusercontent.com/1391509/137481669-51c22e21-7b42-404f-b5ba-8d4f43b52d3f.png)
 
