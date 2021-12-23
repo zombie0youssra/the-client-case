@@ -103,7 +103,7 @@ Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo g
 
 #### @media 30em
 
-Margin en padding aanpassinge voor smalle schermen. 
+Margin en padding aanpassingen voor smalle schermen. 
 
 Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositioneerd, omdat die anders te breed worden voor een small-screen.
 ```css
