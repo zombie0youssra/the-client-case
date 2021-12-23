@@ -45,10 +45,14 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
   En een local CSS file met specifieke styling voor deze pagina. 
   ```html
       <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
-      <link rel="stylesheet" href="local.css">
+      <link rel="stylesheet" href="styles/local.css">
   ```
 
   In de `<head>` wordt een extern font geladen: De Open Sans 
+  
+  ```
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
+  ```
 
 #### BODY
 
