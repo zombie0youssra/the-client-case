@@ -1,4 +1,4 @@
-# FDND Contact Microsite 
+# The CLient Case
 
 Je bestudeert een uitgewerkte opdracht voor een opdrachtgever en bekijkt de briefing / debriefing in de analysefase van de Development Life Cycle. 
 
