@@ -9,8 +9,6 @@ Deze leertaak hoort bij sprint 2 The Client. Dit is een opdracht die je individu
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen.
 
 ## Werkwijze
-![Opdrachtomschrijving](opdrachtomschrijving.png)
-
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
 De development lifecycle kent de volgende stappen:
 
