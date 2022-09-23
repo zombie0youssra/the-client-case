@@ -38,7 +38,7 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 
 Deze opdracht is done als:
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
-- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen, inzichten)
+- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
 - [ ] de website staat op Github en heeft een live url
 
 
