@@ -44,10 +44,8 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 * Je schetst om gedachten en processen te verkennen
 
 Deze opdracht is done als:
-
-- [ ] ...
-- [ ] ...
-- [ ] ...
-
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
+- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (ontwerpbeslissingen, schetsen, inzichten en testresultaten)
+- [ ] de website staat op Github en heeft een live url
 
 
