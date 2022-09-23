@@ -3,18 +3,13 @@
 Ontwerp en maak een component / website voor een bedrijf en presenteer het resultaat
 
 ## Context
-Deze leertaak hoort bij [sprint # "titel van de sprint"]. Dit is een [niveau van de opdracht] die je [individueel, in team] uitvoert voor [opdrachtgever]
+Deze leertaak hoort bij [sprint 2 "titel van de sprint"]. Dit is een [niveau van de opdracht] die je [individueel, in team] uitvoert voor [opdrachtgever]
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
-
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen
 
 ## Werkwijze
 ![Opdrachtomschrijving](opdrachtomschrijving.png)
-
-*De werkwijze volgt de fasering van de DLC*
-
 
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
 De development lifecycle kent de volgende stappen:
@@ -27,8 +22,8 @@ De development lifecycle kent de volgende stappen:
 
 ### Aanpak
 1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
-2. Fork de leertaak
-3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository
+2. Fork deze leertaak
+3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
 4. Documenteer je proces a.h.v de development life cycle
 5. En schrijf een goede readme
 
@@ -45,7 +40,7 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 
 Deze opdracht is done als:
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
-- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (ontwerpbeslissingen, schetsen, inzichten en testresultaten)
+- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen, inzichten)
 - [ ] de website staat op Github en heeft een live url
 
 
