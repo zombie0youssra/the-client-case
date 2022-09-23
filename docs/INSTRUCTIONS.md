@@ -3,10 +3,10 @@
 Ontwerp en maak een component / website voor een bedrijf en presenteer het resultaat
 
 ## Context
-Deze leertaak hoort bij [sprint 2 "titel van de sprint"]. Dit is een [niveau van de opdracht] die je [individueel, in team] uitvoert voor [opdrachtgever]
+Deze leertaak hoort bij sprint 2 The Client. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
-Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen
+Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen.
 
 ## Werkwijze
 ![Opdrachtomschrijving](opdrachtomschrijving.png)
