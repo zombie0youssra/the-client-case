@@ -1,6 +1,6 @@
 # The Client Case
 
-Ontwerp en maak een component / website voor een bedrijf en presenteer het resultaat
+Ontwerp en maak een component / website voor een bedrijf en presenteer het resultaat.
 
 ## Context
 Deze leertaak hoort bij sprint 2 The Client. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
