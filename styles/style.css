@@ -1,60 +1,14 @@
-@media screen and (min-width: 767px) {
-    
+@media screen and (min-width:600px){
+ body{
+    margin: 0;
+ }   
 }
 
-body {
-    color: black;
-    background-color: white;
-    margin: 0%;
-    
-}
-
-header {
-    background-color: red;
-    margin: 0px;
-    
-    
-
+header{
+background-color: red;
 }
 
 .logo{
-   width: 125px; 
-   height: 125px;
-
-}
-
-.mijnaccount{
-    background-color: #D70F0F;
-    color: white;
-    border-radius: 2em;
-    text-decoration: none;
-}
-
-.mijnaccount:hover{
-    background-color: #9f0a0a;
-
-}
-ul{
-    list-style: none;
-    background-color: #D9D9D9;
-    margin: 0%;
-}
-li a{
-    text-decoration: none;
-}
-
-.newspic {
-    width: 375px;
-    height:225px;
-}
-
-section{
-    background-color: #D9D9D9;
-    margin-bottom: 5px;
-}
-
-footer {
-    margin: 0px;
-    background-color: black;
-    color: white;
+    height: 175px;
+    width: 225px;
 }
