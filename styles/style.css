@@ -1,7 +1,18 @@
 @media screen and (min-width:600px){
  body{
     margin: 0;
+    
  }   
+}
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
 }
 
 header{
