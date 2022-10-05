@@ -1,13 +1,11 @@
 @media screen and (min-width:600px){
- body{
-    margin: 0;
-    
- }   
+
 }
 body{
+    margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.2fr 4fr 0.5fr;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -16,10 +14,91 @@ body{
 }
 
 header{
-background-color: red;
+    background-color: red;
+    grid-area: header;
 }
 
-.logo{
-    height: 175px;
-    width: 225px;
+.logo {
+    height: 150px;
+    width: 200px;
 }
+
+.account{
+    background-color:rgb(221, 0, 0);
+    border-radius: 20em;
+}
+
+nav{
+    grid-area: nav;
+    background-color: lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+display: inline;
+}
+
+li a:hover{
+    background-color: rgb(195, 193, 193);
+}
+
+main{
+    display: flex;
+    flex-direction:column ;
+    grid-area: main;
+}
+
+
+.slider {
+    width: 25em;
+    height: 10em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 2em;
+    margin-left: 2em;
+
+}
+
+.mijnboeken{
+    width: 15em;
+    height: 15em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
+.reserveringen{
+    width: 15em;
+    height: 15em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 2em;
+    margin-left: 2em;
+     
+}
+
+.evenementen {
+    width: 15em;
+    height: 15em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+}
+
+
+
+
+footer{
+    grid-area: footer;
+    background-color: black;
+}
+
