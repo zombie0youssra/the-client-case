@@ -11,6 +11,7 @@ body{
     "nav nav nav"
     "main main main"
     "footer footer footer";
+
 }
 
 header{
@@ -19,23 +20,26 @@ header{
 }
 
 .logo {
-    height: 150px;
-    width: 200px;
+    height: 125px;
+    width: 175px;
 }
 
 .account{
     background-color:rgb(221, 0, 0);
-    border-radius: 20em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
 }
 
 nav{
     grid-area: nav;
-    background-color: lightgray;
+
 }
 
-a{
+.list{
     text-decoration: none;
     color: black;
+    
 }
 
 ul{
@@ -47,7 +51,7 @@ display: inline;
 }
 
 li a:hover{
-    background-color: rgb(195, 193, 193);
+    color: rgb(255, 0, 0);
 }
 
 main{
@@ -63,6 +67,7 @@ main{
     background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
+    background-image: url(../assets/kinderjury2023.png);
 
 }
 
@@ -72,6 +77,8 @@ main{
     background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
+    border-radius:1em ;
+    background-image: url(../assets/boekenkast.jpg);
 }
 
 
@@ -81,6 +88,8 @@ main{
     background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
+    border-radius: 1em;
+    background-image: url(../assets/boekenkast.jpg);
      
 }
 
@@ -91,6 +100,8 @@ main{
     margin-top: 2em;
     margin-left: 2em;
     margin-bottom: 2em;
+    border-radius: 1em;
+    background-image: url(../assets/boekenkast.jpg);
 
 }
 
@@ -99,6 +110,10 @@ main{
 
 footer{
     grid-area: footer;
+    display: flex;
+    flex-direction: row;
     background-color: black;
+    color: white;
+    column-gap: 1em;
 }
 
