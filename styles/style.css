@@ -24,15 +24,23 @@ header{
     width: 175px;
 }
 
-.account{
+.loguit{
     float: right;
     margin-top: 5.5em;
-    background-color:rgb(221, 0, 0);
-    text-decoration: none;
     color: white;
+    background-color:red;
+    border: 1.5px solid white;
+    border-radius: 2em;
 }
 
-nav{
+.loguit:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+
+}
+
+.pages{
     grid-area: nav;
 
 }
@@ -58,6 +66,7 @@ li a:hover{
     color: rgb(255, 0, 0);
 }
 
+
 main{
     display: flex;
     flex-direction:column ;
@@ -82,8 +91,8 @@ main{
     margin-top: 2em;
     margin-left: 2em;
     border-radius:1em ;
-
 }
+
 
 
 .reserveringen{
