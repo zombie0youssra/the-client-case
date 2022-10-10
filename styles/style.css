@@ -122,6 +122,8 @@ main{
     margin-left: 2em;
     margin-bottom: 2em;
     border-radius: 1em;
+    background-image: url(../assets/boekpresentatie.jpg);
+    background-size: cover;
     
 }
 
