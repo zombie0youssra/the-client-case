@@ -21,10 +21,27 @@ header{
     height: 125px;
     width: 175px;
 }
+section{
+    float: right;
+}
+
+.account{
+    display: flex;
+    color: white;
+    background-color: red;
+    border: 1.5px solid white;
+    border-radius: 2em;
+    margin-top: 0.5em;
+}
+
+.account:hover{
+    background-color: white;
+    color: red;
+    transition: 1s ease-in;
+}
 
 .loguit{
-    float: right;
-    margin-top: 5.5em;
+    display: flex;
     color: white;
     background-color:red;
     border: 1.5px solid white;
@@ -169,3 +186,16 @@ p{
 
 }
 
+@media screen and (min-width: 590px) {
+
+ main{
+    display: flex;
+    flex-direction: row;
+    grid-area: main;
+    
+ }
+.slider{
+    width: 30em;
+    height: 15em;
+}
+}
