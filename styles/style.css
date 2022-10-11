@@ -3,7 +3,7 @@ body{
     margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 4fr 0.1fr;
+    grid-template-rows: 0.5fr 0.2fr 4fr 0.3fr;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -75,7 +75,7 @@ ul{
 }
 
 li{
-float: left;
+    float: left;
 }
 
 li a:hover{
@@ -89,6 +89,7 @@ li a:hover{
 main{
     display: flex;
     flex-direction:column ;
+    flex-wrap: wrap;
     grid-area: main;
 }
 
@@ -147,16 +148,34 @@ main{
     
 }
 
+.hulp{
+    width: 15em;
+    height: 15em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    background-image: url(../assets/phone.jpg);
+    background-size: cover;
+}
+
+.aanbevelingen{
+    width: 22em;
+    height: 10em;
+    background-color: rgb(128, 128, 128);
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+
+}
 
 
 
 footer{
     grid-area: footer;
-    display: flex;
-    flex-direction: row;
     background-color: black;
-    color: white;
-    column-gap: 1em;
 }
 
 h1{
@@ -197,5 +216,15 @@ p{
 .slider{
     width: 30em;
     height: 15em;
+}
+
+.aanbevelingen{
+    width: 30em;
+    height: 15em;
+    margin-top: 2em;
+
+}
+footer{
+    display: none;
 }
 }
