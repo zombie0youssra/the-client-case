@@ -3,7 +3,7 @@ body{
     margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 4fr 0.3fr;
+    grid-template-rows: 0.5fr 0.2fr 4fr 0.5fr;
     grid-template-areas: 
     "header header header"
     "nav nav nav"
@@ -110,14 +110,23 @@ main{
 .mijnboeken{
     width: 15em;
     height: 15em;
-    background-color: rgb(128, 128, 128);
+    background-color: red;
     margin-top: 2em;
     margin-left: 2em;
     border-radius:1em ;
-    background-image:url(../assets/boekenkast.jpg);
+    background-image:url();
     background-size: cover;
 }
-
+.mijnboeken:hover{
+    background-image: url(../assets/boekenkast.jpg);
+}
+ .imgtext{
+    font-size: 40px;
+    color: white;
+    position: center;
+    margin-left: 0.5em;
+    margin-top: 2.5em;
+ }
 
 
 
@@ -128,12 +137,17 @@ main{
     margin-top: 2em;
     margin-left: 2em;
     border-radius: 1em;
-    background-image: url(../assets/kindleestboek.jpg);
     background-size: cover;
     background-position: 15em 15em;
-
      
 }
+
+.reserveringen:hover{
+    background-image: url(../assets/kindleestboek.jpg);
+    transition-duration: 2.5s;
+}
+
+
 
 .evenementen {
     width: 15em;
@@ -224,7 +238,5 @@ p{
     margin-top: 2em;
 
 }
-footer{
-    display: none;
-}
+
 }
