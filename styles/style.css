@@ -97,12 +97,9 @@ main{
 .slider {
     width: 22em;
     height: 10em;
-    background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
     border-radius: 0.5em;
-    background-image: url(../assets/kinderjury2023.png);
-    background-size: cover;
     overflow: hidden;
 
 }
@@ -187,7 +184,7 @@ main{
     margin-left: 2em;
     margin-bottom: 2em;
     border-radius: 1em;
-    background-image: url(../assets/zitten.jpg);
+    background-image: url(../assets/mensenpraten.jpeg);
     background-size: cover;
     
 }
@@ -200,8 +197,9 @@ main{
     margin-left: 2em;
     margin-bottom: 2em;
     border-radius: 1em;
-    background-image: url(../assets/phone.jpg);
+    background-image: url(../assets/jongenbril.jpeg);
     background-size: cover;
+    z-index: 1;
 }
 
 .aanbevelingen{
@@ -215,6 +213,11 @@ main{
 
 }
 
+.block{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em; 
+}
 
 
 footer{
