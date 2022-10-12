@@ -103,8 +103,54 @@ main{
     border-radius: 0.5em;
     background-image: url(../assets/kinderjury2023.png);
     background-size: cover;
-    
+    overflow: hidden;
 
+}
+
+.news{
+    width: 22em;
+    height: 10em;
+    display: flex;
+    animation: slide 10s infinite ;
+}
+
+.newsimg{
+    width: 22em;
+    height: 10em;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
 }
 
 .mijnboeken{
@@ -114,20 +160,9 @@ main{
     margin-top: 2em;
     margin-left: 2em;
     border-radius:1em ;
-    background-image:url();
+    background-image:url(../assets/boekenkast.jpg);
     background-size: cover;
 }
-.mijnboeken:hover{
-    background-image: url(../assets/boekenkast.jpg);
-}
- .imgtext{
-    font-size: 40px;
-    color: white;
-    position: center;
-    margin-left: 0.5em;
-    margin-top: 2.5em;
- }
-
 
 
 .reserveringen{
@@ -137,16 +172,11 @@ main{
     margin-top: 2em;
     margin-left: 2em;
     border-radius: 1em;
+    background-image: url(../assets/kindleestboek.jpg);
     background-size: cover;
     background-position: 15em 15em;
      
 }
-
-.reserveringen:hover{
-    background-image: url(../assets/kindleestboek.jpg);
-    transition-duration: 2.5s;
-}
-
 
 
 .evenementen {
@@ -238,5 +268,9 @@ p{
     margin-top: 2em;
 
 }
-
+.newsimg{
+    width: 30em;
+    height: 15em;
+    }
 }
+
