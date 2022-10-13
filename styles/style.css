@@ -96,7 +96,6 @@ main{
     grid-area: main;
 }
 
-
 .slider {
     width: 22em;
     height: 10em;
@@ -164,11 +163,16 @@ main{
     background-size: cover;
 }
 
+.mijnboeken:hover{
+    background-image: none;
+    transition: 1s;
+}
+
 
 .reserveringen{
     width: 15em;
     height: 5em;
-    background-color: rgb(128, 128, 128);
+    background-color: red;
     margin-top: 2em;
     margin-left: 2em;
     border-radius: 1em;
@@ -178,11 +182,15 @@ main{
      
 }
 
+.reserveringen:hover{
+    background-image: none;
+    transition: 1s;
+}
 
 .evenementen {
     width: 15em;
     height: 5em;
-    background-color: rgb(128, 128, 128);
+    background-color: red;
     margin-top: 2em;
     margin-left: 2em;
     margin-bottom: 2em;
@@ -192,76 +200,59 @@ main{
     
 }
 
-.hulp{
-    width: 15em;
-    height: 5em;
-    background-color: rgb(128, 128, 128);
-    margin-top: o.5em;
+.evenementen:hover{
+    background-image: none;
+    transition: 1s;
+}
+
+
+.block{
+    margin-left: 1.5em;
+    font-size: 30px;
+    color: white;
+}
+
+p{
+   padding-top: 0.5em;
+}
+
+aside{
     margin-left: 2em;
     margin-bottom: 2em;
     border-radius: 1em;
-    background-image: url(../assets/jongenbril.jpeg);
-    background-size: cover;
-    z-index: 1;
-}
-
-.aanbevelingen{
-    width: 22em;
-    height: 10em;
-    margin-top: 0.5em;
-    margin-left: 2em;
-    margin-bottom: 2em;
+    width: 25em;
+    height: 20em;
+    background-color: red;
     overflow: hidden;
-
-
+    
 }
 
-.block{
+.titelaan{
+    margin-left: 4.8em;
+    font-size: 25px;
     color: white;
-    font-size: 35px;
-    margin-left: 1em;
 }
 
+.carouselbox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0.1em;
+}
 
 .carousel{
-display:flex;
-flex-direction: row;
+
 }
 
 .carouselimg{
-    padding-left: 0.5em;
-    width: 5em;
+    padding: 0.5em;
     height: 10em;
+    width: 6em;
 }
-
-.carouselimg:hover{
-    width: 8em;
-    height: 13em;
-}
-
-
-.block{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em; 
-}
-
 
 footer{
     grid-area: footer;
     background-color: black;
-}
-
-h1{
-    margin-left: 1.5em;
-}
-
-h2{
-    margin-left: 1.5em;
-}
-
-p{
-    margin-left: 2em ;
 }
 
 
@@ -292,16 +283,15 @@ p{
     height: 15em;
 }
 
-.aanbevelingen{
-    width: 30em;
-    height: 15em;
-    margin-top: 2em;
-
 }
 .newsimg{
     width: 30em;
     height: 15em;
     }
+
+aside{
+    margin-top: 0.5em;
+}
 
 @keyframes slide {
     0% {
@@ -337,12 +327,3 @@ p{
     }
 }
 
-.carouselimg{
-    margin-top: 2.5em;
-    margin-left: 1em;
-}
-
-.hulp{
-    margin-top: 2em;
-}
-}
