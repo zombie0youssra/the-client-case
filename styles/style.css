@@ -12,6 +12,9 @@ body{
 
 }
 
+
+
+
 header{
     background-color: red;
     grid-area: header;
@@ -205,12 +208,28 @@ main{
 .aanbevelingen{
     width: 22em;
     height: 10em;
-    background-color: rgb(128, 128, 128);
     margin-top: 0.5em;
     margin-left: 2em;
     margin-bottom: 2em;
-    border-radius: 1em;
+    overflow: hidden;
 
+
+}
+
+.carousel{
+display:flex;
+flex-direction: row;
+}
+
+.carouselimg{
+    padding-left: 0.5em;
+    width: 5em;
+    height: 10em;
+}
+
+.carouselimg:hover{
+    width: 8em;
+    height: 13em;
 }
 
 .block{
@@ -275,5 +294,43 @@ p{
     width: 30em;
     height: 15em;
     }
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-125%);
+    }
+
+    75% {
+        transform: translateX(-225%);
+    }
+
+    80% {
+        transform: translateX(-200%);
+    }
+
+    85% {
+        transform: translateX(-325%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
 }
 
+.carouselimg{
+    margin-top: 2.5em;
+    margin-left: 1em;
+}
+}
