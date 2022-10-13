@@ -224,7 +224,13 @@ aside{
     height: 20em;
     background-color: red;
     overflow: hidden;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
     
+}
+
+aside::-webkit-scrollbar{
+    display: none;
 }
 
 .titelaan{
@@ -238,9 +244,18 @@ aside{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 0.1em;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    
+    
+}
+
+.carouselbox::-webkit-scrollbar {
+    display: none;
 }
 
 .carousel{
+    scroll-snap-align: start;
 
 }
 
