@@ -155,7 +155,7 @@ main{
 
 .mijnboeken{
     width: 15em;
-    height: 15em;
+    height: 5em;
     background-color: red;
     margin-top: 2em;
     margin-left: 2em;
@@ -167,7 +167,7 @@ main{
 
 .reserveringen{
     width: 15em;
-    height: 15em;
+    height: 5em;
     background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
@@ -181,7 +181,7 @@ main{
 
 .evenementen {
     width: 15em;
-    height: 15em;
+    height: 5em;
     background-color: rgb(128, 128, 128);
     margin-top: 2em;
     margin-left: 2em;
@@ -194,9 +194,9 @@ main{
 
 .hulp{
     width: 15em;
-    height: 15em;
+    height: 5em;
     background-color: rgb(128, 128, 128);
-    margin-top: 2em;
+    margin-top: o.5em;
     margin-left: 2em;
     margin-bottom: 2em;
     border-radius: 1em;
@@ -216,6 +216,13 @@ main{
 
 }
 
+.block{
+    color: white;
+    font-size: 35px;
+    margin-left: 1em;
+}
+
+
 .carousel{
 display:flex;
 flex-direction: row;
@@ -231,6 +238,7 @@ flex-direction: row;
     width: 8em;
     height: 13em;
 }
+
 
 .block{
     width: 15em;
@@ -332,5 +340,9 @@ p{
 .carouselimg{
     margin-top: 2.5em;
     margin-left: 1em;
+}
+
+.hulp{
+    margin-top: 2em;
 }
 }
