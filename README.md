@@ -4,14 +4,12 @@
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+  * De opdracht✌
+  * Kenmerken ✨
+  * Bronnen 🙌
+  * licentie 🚧
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-#De opdracht✌
+## De opdracht✌
 📸 <img width="943" alt="image" src="https://user-images.githubusercontent.com/112857270/195787189-0ae86caa-6f79-4ed2-928e-bb6416bee9fa.png">
 
 🌐https://zombie0youssra.github.io/the-client-case/
