@@ -20,15 +20,15 @@ ik heb userstory 12 gekozen. Userstory 12 is als volgt:Als OBA lid wil ik op de 
 ## technieken🥁
 
 tools🎶
-visual studio code
+visual studio code,
 figma
 
 talen🎵
-html
+html,
 css
 	
 ### HTML Structuur😈
-voor de aanbevelingen heb ik snap-scroll gebruikt om zo door de boeken verticall te scrollen.
+voor de aanbevelingen heb ik snap-scroll gebruikt om zo door de boeken verticaal te scrollen.
 
 <h3>HTML
 
