@@ -4,10 +4,10 @@ body{
     margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 4fr 0.5fr;
+    grid-template-rows: 0.2fr 0.5fr 4fr 0.1fr;
     grid-template-areas: 
     "header header header"
-    "nav nav nav"
+    "tips tips tips"
     "main main main"
     "footer footer footer";
 
@@ -17,8 +17,9 @@ body{
 
 
 header{
-    background-color: red;
+    
     grid-area: header;
+    display: inline-flexbox;
 }
 
 .logo {
@@ -41,7 +42,7 @@ section{
 .account:hover{
     background-color: white;
     color: red;
-    transition: 1s ease-in;
+    transition: 0.5s ease-in;
 }
 
 .loguit{
@@ -56,12 +57,13 @@ section{
 .loguit:hover{
     background-color: white;
     color: red;
-    transition:  1s ease-in;
+    transition:  0.5s ease-in;
 
 }
 
 .pages{
-    grid-area: nav;
+    grid-area: header;
+    margin-top: 6em;
 
 }
 
@@ -83,7 +85,7 @@ li{
 }
 
 li a:hover{
-    color: rgb(255, 0, 0);
+    color: red;
     transition: 0.5s ease;
 
 }
