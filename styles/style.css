@@ -26,10 +26,12 @@ header{
     margin-left: 2em;
     margin-top: 1em;
     height: 100px;
-    width: 175px;
+    width: 200px;
 }
 section{
     float: right;
+    margin-top: 2em;
+    margin-right: 1em;
 }
 
 .account{
@@ -65,7 +67,7 @@ section{
 
 .pages{
     grid-area: header;
-    margin-top: 6em;
+    margin-top: 6.5em;
 
 }
 
