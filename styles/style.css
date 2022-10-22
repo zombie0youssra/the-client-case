@@ -23,7 +23,9 @@ header{
 }
 
 .logo {
-    height: 125px;
+    margin-left: 2em;
+    margin-top: 1em;
+    height: 100px;
     width: 175px;
 }
 section{
