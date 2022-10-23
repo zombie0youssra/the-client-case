@@ -102,6 +102,22 @@ main{
     grid-area: main;
 }
 
+.recommended{
+    height: 25em;
+    width: 26em;
+    margin-left: 2em;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.mijnboeken{
+    height: 15em;
+    width: 26em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    background-color: lightgray;
+}
+
 
 footer{
     grid-area: footer;
