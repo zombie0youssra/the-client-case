@@ -4,10 +4,10 @@ body{
     margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 4fr 0.5fr;
+    grid-template-rows: 0.2fr 0.5fr 4fr 0.1fr;
     grid-template-areas: 
     "header header header"
-    "nav nav nav"
+    "tips tips tips"
     "main main main"
     "footer footer footer";
 
@@ -17,16 +17,21 @@ body{
 
 
 header{
-    background-color: red;
+    
     grid-area: header;
+    display: inline-flexbox;
 }
 
 .logo {
-    height: 125px;
-    width: 175px;
+    margin-left: 2em;
+    margin-top: 1em;
+    height: 100px;
+    width: 200px;
 }
 section{
     float: right;
+    margin-top: 2em;
+    margin-right: 1em;
 }
 
 .account{
@@ -41,7 +46,7 @@ section{
 .account:hover{
     background-color: white;
     color: red;
-    transition: 1s ease-in;
+    transition: 0.5s ease-in;
 }
 
 .loguit{
@@ -56,12 +61,13 @@ section{
 .loguit:hover{
     background-color: white;
     color: red;
-    transition:  1s ease-in;
+    transition:  0.5s ease-in;
 
 }
 
 .pages{
-    grid-area: nav;
+    grid-area: header;
+    margin-top: 6.5em;
 
 }
 
@@ -83,8 +89,7 @@ li{
 }
 
 li a:hover{
-    color: rgb(255, 0, 0);
-    font-size: 22px;
+    color: red;
     transition: 0.5s ease;
 
 }
@@ -97,13 +102,13 @@ main{
     grid-area: main;
 }
 
-.slider {
-    width: 22em;
-    height: 10em;
-    margin-top: 2em;
+.recommended{
+    height: 25em;
+    width: 26em;
     margin-left: 2em;
+<<<<<<< HEAD
     border-radius: 0.5em;
-    overflow: hidden;
+    overflow:
 
 }
 
@@ -151,140 +156,66 @@ main{
     100% {
         transform: translateX(-300%);
     }
-}
-
-.mijnboeken{
-    width: 15em;
-    height: 5em;
-    background-color: red;
-    margin-top: 2em;
-    margin-left: 2em;
-    border-radius:1em ;
-    background-image:url(../assets/boekenkast.jpg);
-    background-size: cover;
-}
-
-.mijnboeken:hover{
-    background-image: none;
-    transition: 1s;
-}
-
-
-.reserveringen{
-    width: 15em;
-    height: 5em;
-    background-color: red;
-    margin-top: 2em;
-    margin-left: 2em;
-    border-radius: 1em;
-    background-image: url(../assets/kindleestboek.jpg);
-    background-size: cover;
-    background-position: 15em 15em;
-     
-}
-
-.reserveringen:hover{
-    background-image: none;
-    transition: 1s;
-}
-
-.evenementen {
-    width: 15em;
-    height: 5em;
-    background-color: red;
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-bottom: 2em;
-    border-radius: 1em;
-    background-image: url(../assets/mensenpraten.jpeg);
-    background-size: cover;
-    
-}
-
-.evenementen:hover{
-    background-image: none;
-    transition: 1s;
-}
-
-
-.block{
-    margin-left: 0.7em;
-    font-size: 30px;
-    color: white;
-}
-
-p{
-   padding-top: 0.5em;
-}
-
-aside{
-    margin-left: 2em;
-    margin-bottom: 2em;
-    border-radius: 1em;
-    width: 25em;
-    height: 20em;
-    background-color: red;
+=======
+    background-color: lightgray;
     overflow: hidden;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    
+>>>>>>> ae12caa3c24d34d4b98f57159477096ba5fe341b
 }
 
-aside::-webkit-scrollbar{
-    display: none;
+.mijnboeken{
+    height: 15em;
+    width: 26em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    background-color: lightgray;
 }
-
-.titelaan{
-    margin-left: 4.8em;
-    font-size: 25px;
-    color: white;
-}
-
-.carouselbox{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 0.1em;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    
-    
-}
-
-.carouselbox::-webkit-scrollbar {
-    display: none;
-}
-
-.carousel{
-    scroll-snap-align: start;
-
-}
-
-.carouselimg{
-    padding: 0.5em;
-    height: 10em;
-    width: 6em;
-}
+p{
+    padding-top: 0.5em;
+ }
+ 
+ 
+ aside::-webkit-scrollbar{
+     display: block;
+ }
+ 
+ .titelaan{
+     margin-left: 4.8em;
+     font-size: 25px;
+     color: white;
+ }
+ 
+ .carouselbox{
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-left: 0.1em;
+     scroll-snap-type: y mandatory;
+     overflow-y: scroll;    
+     
+ }
+ 
+ .carouselbox::-webkit-scrollbar {
+     display: 
+ }
+ 
+ .carousel{
+     scroll-snap-align: start;
+ 
+ }
+ 
+ .carouselimg{
+     padding: 0.5em;
+     height: 10em;
+     width: 6em;
+ }
 
 footer{
     grid-area: footer;
     background-color: black;
 }
 
-
-.boeken {
-    margin-top: 2em;
-    margin-left: 2em;
-    
-
-   
-}
-
-.boek {
-    height: 10em;
-    width: 6em;
-
-}
 
 @media screen and (min-width: 590px) {
 
@@ -293,53 +224,7 @@ footer{
     flex-direction: row;
     grid-area: main;
     
- }
-.slider{
-    width: 30em;
-    height: 15em;
-}
 
 }
-.newsimg{
-    width: 30em;
-    height: 15em;
-    }
-
-aside{
-    margin-top: 0.5em;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-100%);
-    }
-
-    50% {
-        transform: translateX(-125%);
-    }
-
-    75% {
-        transform: translateX(-225%);
-    }
-
-    80% {
-        transform: translateX(-200%);
-    }
-
-    85% {
-        transform: translateX(-325%);
-    }
-
-    100% {
-        transform: translateX(-300%);
-    }
 }
 
