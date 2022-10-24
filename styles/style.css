@@ -109,6 +109,9 @@ p {
     overflow-y: scroll;
 }
 
+.recommended::-webkit-scrollbar{
+background-color:;
+}
 
 
 .titelaan {
