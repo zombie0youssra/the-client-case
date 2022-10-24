@@ -4,10 +4,10 @@ body{
     margin: 0%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 0.5fr 4fr 0.1fr;
+    grid-template-rows: 0.5fr 0.2fr 4fr 0.5fr;
     grid-template-areas: 
     "header header header"
-    "tips tips tips"
+    "nav nav nav"
     "main main main"
     "footer footer footer";
 
@@ -17,21 +17,15 @@ body{
 
 
 header{
-    
     grid-area: header;
-    display: inline-flexbox;
 }
 
 .logo {
-    margin-left: 2em;
-    margin-top: 1em;
-    height: 100px;
+    height: 120px;
     width: 200px;
 }
 section{
     float: right;
-    margin-top: 2em;
-    margin-right: 1em;
 }
 
 .account{
@@ -67,7 +61,7 @@ section{
 
 .pages{
     grid-area: header;
-    margin-top: 6.5em;
+    padding-top: 7.5em;
 
 }
 
@@ -89,7 +83,7 @@ li{
 }
 
 li a:hover{
-    color: red;
+    color: rgb(255, 0, 0);
     transition: 0.5s ease;
 
 }
@@ -102,61 +96,44 @@ main{
     grid-area: main;
 }
 
-.recommended{
-    height: 25em;
-    width: 26em;
-    margin-left: 2em;
-    border-radius: 0.5em;
-    overflow:hidden;
-
+p {
+    padding-top: 0.5em;
 }
 
-.news{
-    width: 22em;
-    height: 10em;
+aside::-webkit-scrollbar {
+    display: block;
+}
+
+.titelaan {
+    margin-left: 4.8em;
+    font-size: 25px;
+    color: white;
+}
+
+.carouselbox {
     display: flex;
-    animation: slide 10s infinite ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0.1em;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
 }
 
-.newsimg{
-    width: 22em;
+.carouselbox::-webkit-scrollbar {
+    display:hidden;
+}
+
+.carousel {
+    scroll-snap-align: start;
+
+}
+
+.carouselimg {
+    padding: 0.5em;
     height: 10em;
+    width: 6em;
 }
-
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(0);
-    }
-
-    30% {
-        transform: translateX(-100%);
-    }
-
-    50% {
-        transform: translateX(-100%);
-    }
-
-    55% {
-        transform: translateX(-200%);
-    }
-
-    75% {
-        transform: translateX(-200%);
-    }
-
-    80% {
-        transform: translateX(-300%);
-    }
-
-    100% {
-        transform: translateX(-300%);
-    }
-
-
 
 footer{
     grid-area: footer;
@@ -164,14 +141,27 @@ footer{
 }
 
 
+.boeken {
+    margin-top: 2em;
+    margin-left: 2em;
+    
+
+   
+}
+
+.boek {
+    height: 10em;
+    width: 6em;
+
+}
+
 @media screen and (min-width: 590px) {
 
  main{
     display: flex;
     flex-direction: row;
     grid-area: main;
-    
+ }
 
-}
 }
 
