@@ -37,11 +37,6 @@ section{
     margin-top: 0.5em;
 }
 
-.account:hover{
-    background-color: white;
-    color: red;
-    transition: 0.5s ease-in;
-}
 
 .loguit{
     display: flex;
@@ -52,12 +47,6 @@ section{
 
 }
 
-.loguit:hover{
-    background-color: white;
-    color: red;
-    transition:  0.5s ease-in;
-
-}
 
 .pages{
     grid-area: header;
@@ -100,45 +89,39 @@ p {
     padding-top: 0.5em;
 }
 .recommended{
-    height: 25em;
+    height: 20em;
     width: 26em;
     margin-left: 2em;
-    background-color: lightgray;
+    border: solid 0.3em red;
+    border-radius: 2em;
     overflow: hidden;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
 }
-
-.recommended::-webkit-scrollbar{
-background-color:;
-}
-
 
 .titelaan {
     margin-left: 4.8em;
     font-size: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .carouselbox {
     display: flex;
+    align-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-left: 0.1em;
-    scroll-snap-type: y mandatory;
+
 
 }
 
 
 .carousel {
-    scroll-snap-align: start;
-
+    
 }
 
 .carouselimg {
     padding: 0.5em;
     height: 10em;
     width: 6em;
+    border-radius: 1em;
 }
 
 footer{
@@ -151,15 +134,25 @@ footer{
     width: 26em;
     margin-top: 1.5em;
     margin-left: 2em;
-    background-color: lightgrey;
+    background-color:lightgrey;
+    border-radius: 3em;
 }
+
+.text{
+align-content: center;
+text-align: center;
+
+}
+    
 
 .boekenlijst{
     height: 10em;
     width: 26em;
     margin-top: 1.5em;
     margin-left: 2em;
-    background-color: lightgrey;
+    background-color:lightgray;
+    border-radius: 3em;
+
 }
 
 .leengeschiedenis{
@@ -169,6 +162,7 @@ footer{
     margin-left: 2em;
     margin-bottom: 1em;
     background-color: lightgrey;
+    border-radius: 3em;
 }
 
 
@@ -182,5 +176,19 @@ footer{
     grid-area: main;
  }
 
-}
+ .mijnboeken{
+    height: 20.6em;
+    width: 45em;
+    margin-top: 0%;
+ }
+
+ .text{
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    }
+ }
+
+
 
