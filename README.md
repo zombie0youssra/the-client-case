@@ -13,8 +13,9 @@
 ### mijn oba 
 ik heb userstory 12 gekozen. Userstory 12 is als volgt:Als OBA lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen #12
 <img width="943" alt="image" src="https://user-images.githubusercontent.com/112857270/195787189-0ae86caa-6f79-4ed2-928e-bb6416bee9fa.png">
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/112857270/197987924-c40a8faa-4029-4b66-9f61-a46e97e7797c.png">
 
-🌐
+🌐https://zombie0youssra.github.io/the-client-case-OBA/
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 ## technieken🥁
